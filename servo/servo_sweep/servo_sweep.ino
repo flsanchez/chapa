@@ -7,18 +7,19 @@ https://programarfacil.com
 
 // Declaramos la variable para controlar el servo
 Servo servoMotor;
-int del = 400;
-int angle_step = 10;
-int min_angle = 60;
-int max_angle = 120;
+int del = 50;
+int angle_step = 1;
+int min_angle = 0;
+int max_angle = 180;
 
 void setup() {
   // Iniciamos el monitor serie para mostrar el resultado
   Serial.begin(9600);
   // Iniciamos el servo para que empiece a trabajar con el pin 9
-  servoMotor.attach(9);
+  servoMotor.attach(2);
   // Inicializamos al ángulo 0 el servomotor
   servoMotor.write(min_angle);
+  delay(3000);
 }
 void loop() {
   // Vamos a tener dos bucles uno para mover en sentido positivo y otro en sentido negativo
