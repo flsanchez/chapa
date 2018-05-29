@@ -1,0 +1,186 @@
+/*
+Theme Name: Awaken-child
+Theme URI: 
+Description: Awaken child theme
+Author: 
+Author URI: 
+Template: awaken
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: red,white,light,right-sidebar,two-columns,custom-background,custom-menu,editor-style,featured-images,full-width-template,sticky-post,theme-options,threaded-comments,translation-ready,rtl-language-support
+Text Domain: awaken-child
+*/
+
+#top-nav {
+  background: #000;
+  width:100%;
+}
+
+#content{
+  margin-top: 10px;
+}
+
+.main-navigation {
+  background: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #FFF;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+
+}
+.main-navigation a {
+  color: #FFF;	
+  background: #000;
+  line-height: 20px;
+  padding: 15px 15px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  text-transform:none;
+}
+.main-navigation a:hover {
+  background: #C1272D;
+  text-decoration:none;
+}
+
+.main-navigation .menu-item-has-children > a:after,
+.main-navigation .page_item_has_children > a:after {
+  display: none;
+}
+
+.site-branding {
+  min-height: 0px;
+}
+
+.awt-container {
+  border-bottom: 0px solid #C1272D;
+  margin-bottom: 25px;
+}
+
+.awt-title {
+  background: #C1272D;
+  color: white;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 0 1px 0;
+  padding: 0 1.2em;
+  text-transform: uppercase;
+}
+
+#awt-widget > li.active > a, .nav-tabs > li.active > a:hover,
+#awt-widget > li.active > a:focus {
+  border: none;
+  background: #C1272D;
+}
+
+#awt-widget {
+  background: #444;
+  margin-bottom: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 0px solid #C1272D;
+}
+
+.awaken-slider-details-container a:hover, .afp-title a:hover {
+  color: #C1272D;
+  text-decoration: none;
+}
+
+.awaken-slider-title:hover {
+  color: #C1272D;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: none;
+  background: #C1272D;
+  color: #fff;
+  cursor: pointer;
+  /* Improves usability and consistency of cursor style between image-type 'input' and others */
+  -webkit-appearance: button;
+  /* Corrects inability to style clickable 'input' types in iOS */
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1;
+  padding: 10px 20px;
+}
+
+.main-widget-area .widget-title {
+  background: #C1272D;
+  color: white;
+  display: inline-block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 0 1px 0;
+  padding: 0 1.2em;
+  text-transform: uppercase;
+}
+
+.widget-title-container {
+  border-bottom: 0px solid #C1272D;
+  margin-bottom: 20px;
+}
+
+.page-entry-title,
+.archive-page-title,
+.search-page-title {
+  background: #C1272D;
+  color: white;
+  display: inline-block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 0 0.1em 0;
+  padding: 0 1.2em;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.page-entry-header,
+.archive-page-header,
+.search-page-header {
+  border-bottom: 0px solid #C1272D;
+  margin-bottom: 1.5em;
+}
+
+.archive-title-span {
+  padding: 0.4em 1em;
+  margin-right: 1em;
+  background: #C1272D;
+}
+
+#awaken-search-form input[type="submit"] {
+    background-color: #C1272D;
+}
+
+.site-branding {
+	height: 85px;
+	padding-top: 7px;
+}
+
+.article-featured-image {
+	text-align: center;
+}
